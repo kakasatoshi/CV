@@ -1,0 +1,103 @@
+body {
+    margin: 0px;
+}
+
+.cv-document {
+	box-sizing: border-box;
+	border: none;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: arial, sans-serif, tahoma;
+	font-size: 10pt;
+}
+
+.cv-page {
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0,0,0,.5);
+    background-color: #fff;
+    position: relative;
+
+    padding: 40px
+}
+
+.name{
+    color: #0e2452;
+}
+.section{
+    /* margin-top: 40px;
+    margin-bottom: 40px; */
+}
+.section-content{
+   
+    background-color: rgb(240,248,255);
+    border-top: 1px solid black;
+    
+}
+.section-info{
+    
+    display: inline-block;
+    height: auto;
+    /* float: left; */
+    border: none;
+
+}
+#img-info{
+    margin-top: 0;
+    margin-right: 0;
+    width: 113px;
+    height: 113px;
+}
+.img-info{
+   
+    top: 0px;
+    right: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    background-color: rgb(235, 195, 142);
+    float: right;
+}
+.time{
+    float: left;
+    border: 1 solid rgb(8, 8, 8);
+}
+.name-info{
+    font-size: 17px;
+}
+.content-objective
+{
+    font-size: 17px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 5px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .skill{
+    font-size: 15px;
+    font-weight: bolder;
+  }
+   
